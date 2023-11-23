@@ -9,9 +9,9 @@ const GameSetup = () => {
       <Navbar />
 
       <div className="text-center">
-        <Link href="/GamePlay?mode=0" as="play?mode=0"><Difficulty mode={0} /></Link>
-        <Link href="/GamePlay?mode=1" as="play?mode=1"><Difficulty mode={1} /></Link>
-        <Link href="/GamePlay?mode=2" as="play?mode=2"><Difficulty mode={2} /></Link>
+        <Link href="/GamePlay?mode=0"><Difficulty mode={0} /></Link>
+        <Link href="/GamePlay?mode=1"><Difficulty mode={1} /></Link>
+        <Link href="/GamePlay?mode=2"><Difficulty mode={2} /></Link>
       </div>
     </main>
   );
